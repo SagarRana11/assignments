@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi_Verma_Batch_2</title>
+    <link rel="stylesheet" href="day2.css">
+    <style>
+        body{
+            background: url(/bridge_2) no-repeat center top/cover;
+            background-attachment: fixed;
+            font-family: 'Syne Mono' , monospace;
+            font-size: 27px;
+            line-height: 1.6cm;
+        }
+        .card {
+           border: 1px solid #f2f2f2;
+           background-color: #e6e6e6; 
+           padding: 20px;
+           margin-bottom: 10px;
+           height: 400px;
+           width: 400px;
+           border: 2px #777 solid;
+            /* width: 500px;*/
+            padding: 20px;
+            margin: 20px; 
+        }
+        h1{
+            text-align: center;
+            font-size: 60px;
+        }
+        p{
+            text-align: center;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="Main-header">
+        <h1><u>Tour And Travelers</u></h1>
+         <p>Book your trip and enjoy Vacation and Holidays</p>
+    </div>
+    <!-- <img src="https://source.unsplash.com/400x200/?nature,water" alt="My image"> -->
+    <ul id="main-nav">
+        <li><a class="hoverClass"
+            style="color: black;"
+            onmouseover="this.style.color='red';"
+            onmouseout="this.style.color='black';"
+
+            href="https://www.holidify.com/country/india/places-to-visit.html" target="_blank">List of Places</a></li>
+        <li><a class="hoverClass"
+             style="color: black;"
+             onmouseover="this.style.color='red';"
+             onmouseout="this.style.color='black';"
+             href="#">Contact</a></li>
+    </ul>
+    <div id="contact" class="card">
+        <h3><u>Contact</u></h3>
+        <ol type="i">
+            <li>Address: Sector 62 , Noida</li>
+            <li>Phone: 870 491 3267</li>
+            <li>Email: aditi@gmail.com</li>
+        </ol>
+    </div>
+    <div id="details">
+        <h3><u>Details</u></h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Package</th>
+                    <th>Days</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                     <td>1</td>
+                     <td>25000</td>
+                     <td>2</td>
+                 </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>45000</td>
+                    <td>4</td>
+                </tr>
+           </tbody>
+           <tbody>
+            <tr>
+                <td>3</td>
+                <td>80000</td>
+                <td>7</td>
+            </tr>
+       </tbody>
+        </table>
+    </div>
+    <div id="form">
+        <h3><u>Form</u></h3>
+        <p><b>Please fill the form According details</b></p>
+        <form action="process.php">
+            <!--text input -->
+            <div>
+                <label for="name">Name</label><br>
+                <input  type="text" id="name" name="name" placeholder="Enter name">
+            </div>
+            <!-- email enter-->
+            <div>
+                <label for="email">Email</label><br>
+                <input  type="email" id="email" name="email" placeholder="enter email">
+            </div>
+            <!-- textarea-->
+            <div>
+                <label for="place">Place</label><br>
+                <textarea name="Place" id="place" cols="50" rows="5"></textarea>
+            </div>
+            <!--select box-->
+            <div>
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <!--number-->
+            <div>
+                <label for="age">Age</label><br>
+                <input type="number" name="age" id="age">
+            </div>
+            <!--date-->
+            <div>
+                <label for="date">Date of travel</label><br>
+                <input  type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="no. of people">No. of people</label><br>
+                <input  type="number" name="no. of people" id="no. of people">
+            </div>
+            <!-- radio type-->
+            <div>
+                <label for="package">Package</label><br>
+                <input  type="radio" name="package" value="2 Days" id="package"> 2 Days
+                <input  type="radio" name="package" value="4 Days" id="package"> 4 Days
+                <input  type="radio" name="package" value="7 Days" id="package"> 7 Days
+            </div>
+            <!--checkbox-->
+            <div>
+                <label for="like">I Like to go by..</label><br>
+                <input  type="checkbox" name="like" value="by road" id="like"> by Road
+                <input  type="checkbox" name="like" value="by train" id="like"> by Train
+                <input  type="checkbox" name="like" value="by flight" id="like"> by Flight
+            </div>
+            <!--Button Submit-->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+
+    </div>
+    <footer>Copyright &copy 2020</footer>
+</body>

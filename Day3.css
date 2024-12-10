@@ -1,0 +1,118 @@
+.outer {
+    width: 960px;
+    margin: 30px auto;
+    background-color: brown;
+}
+
+.bigbox {
+    height: 700px;
+    background-color: aquamarine;
+}
+
+.container2 {
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+.container1 {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.div1 {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+
+.div2 {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.div3 {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    float: left;
+}
+
+.div4 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(143, 94, 20);
+    float: left;
+}
+
+.div5 {
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    float: right;
+}
+
+.clearfix {
+    width: 2px;
+    height: 2px;
+    clear: both;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative; /* Relative to contain the buttons */
+}
+
+.card1 {
+    background: lightblue;
+    color: #fff;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.buttons-container {
+    margin-top: 20px; /* Space between image and buttons */
+    text-align: center; /* Center the buttons */
+}
+
+button {
+    margin: 10px; /* Space between buttons */
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Ensure buttons take up the full width of their container */
+}
+
+.btn1 {
+    background: blue;
+    color: white;
+}
+
+.btn11 {
+    background: #4c6c4c;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px; /* Space between image and buttons */
+}
